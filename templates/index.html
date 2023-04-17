@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script type="text/javascript" src="{{url_for('static',filename = 'say.js')}}"></script>
+    <script type="text/javascript" src="{{url_for('static',filename = 'js/say.js')}}"></script>
 </head>
 <body>
+<img src="{{url_for('static',filename = 'image/image.png')}}">
 <input type="button" onclick="sayhello()" value="say hello" />
+
 </body>
 </html>
